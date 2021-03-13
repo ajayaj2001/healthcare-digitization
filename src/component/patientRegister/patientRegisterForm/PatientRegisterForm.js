@@ -10,8 +10,8 @@ const options = [
 
 const PatientRegisterForm = () => {
 
-const generateOtp=(event)=>{
-    console.log(event);
+  const generateOtp=()=>{
+    document.getElementById('doctorRegisterForm__otpBox').style.display="block";
 }
 
 
@@ -46,25 +46,17 @@ const generateOtp=(event)=>{
                     />
       <Form.Input label='Phone' placeholder='Phone' required/>
     </Form.Group>
-    <Form.Group widths='equal'>
-
       <Form.Input 
-      fluid label='M Licence' 
-      placeholder='M Licence'  
+       label='Emergency / Alternative Phone number' 
+      placeholder='Emergency Phone number'  
       required
+      width={6}
+      //style={{width:'20rem'}}
       />
-      <Form.Input 
-      fluid label='patient specialization' 
-      placeholder='patient specialization'
-       required
-       />
-
-    </Form.Group>
-    <Form.Input label='Hospital' placeholder='hospital' required  width={12}/>
-    <Form.Input label='Qualification' placeholder='qualification' required width={12}/>
+    <Form.TextArea label='Address' placeholder='Enter Your Permanent address' />
     <Form.Group>
     <Button positive onClick={event=>generateOtp(event)} className="patientRegisterForm__button" inverted color="purple">Generate OTP</Button>
-    <Form.Input label='Enter OTP' placeholder='hospital'   />
+    <Form.Input placeholder='Enter the otp ' id="doctorRegisterForm__otpBox"  />
     </Form.Group>
     <Form.Group className="patientRegisterForm__buttonPosition">
     <Button positive style={{marginRight:'4rem'}} inverted color="blue">Submit</Button>

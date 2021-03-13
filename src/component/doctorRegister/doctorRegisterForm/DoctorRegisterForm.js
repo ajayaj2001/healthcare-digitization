@@ -10,8 +10,8 @@ const options = [
 
 const DoctorRegisterForm = () => {
 
-const generateOtp=(event)=>{
-    console.log(event);
+const generateOtp=()=>{
+    document.getElementById('doctorRegisterForm__otpBox').style.display="block";
 }
 
 
@@ -63,8 +63,8 @@ const generateOtp=(event)=>{
     <Form.Input label='Hospital' placeholder='hospital' required  width={12}/>
     <Form.Input label='Qualification' placeholder='qualification' required width={12}/>
     <Form.Group>
-    <Button positive onClick={event=>generateOtp(event)} className="doctorRegisterForm__button" inverted color="purple">Generate OTP</Button>
-    <Form.Input label='Enter OTP' placeholder='hospital'   />
+    <Button positive onClick={()=>generateOtp()} className="doctorRegisterForm__button" inverted color="purple">Generate OTP</Button>
+    <Form.Input  placeholder='Enter the otp' id="doctorRegisterForm__otpBox"  />
     </Form.Group>
     <Form.Group className="doctorRegisterForm__buttonPosition">
     <Button positive style={{marginRight:'4rem'}} inverted color="blue">Submit</Button>
