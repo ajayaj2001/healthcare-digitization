@@ -5,6 +5,8 @@ import Login from '../login/Login';
 import Register from '../register/Register';
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 import DoctorRegister from '../doctorRegister/DoctorRegister';
+import PatientRegister from '../patientRegister/PatientRegister'
+
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
           </Route>
           <Route path="/doctorRegister">
             <DoctorRegister/>
+          </Route>
+          <Route path="/patientRegister">
+            <PatientRegister/>
           </Route>
           <Route path="/">
             <UserType/>
