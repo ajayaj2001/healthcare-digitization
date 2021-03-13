@@ -1,0 +1,38 @@
+.doctorRegister{
+    &__container{
+        margin: 0;
+        background-color: #cfd4fe;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0rem 0rem 1rem;
+    }
+    &__main{
+        background-color: white;
+        width: 90%;
+        height: 100%;
+        border-radius: 1rem;
+        align-items: center;
+        overflow: hidden;
+        box-shadow: 0 5rem 8rem rgba(black, 0.2);
+        padding: 1rem 3rem 3rem 3rem;
+    }
+   &__heading{
+       font-size: 2rem !important;
+       margin: 0rem 0rem 3rem 0rem;
+       padding-left: 1rem;
+       line-height: 6rem;
+       border-bottom: .2rem solid black;
+       width: 28rem;
+       border-radius: 2rem;
+       @media (max-width: 65em) {
+        font-size: 1.5rem !important;
+        width: 20rem;
+      }
+       
+   }
+   &__subheading{
+       margin-bottom: 2rem;
+   }
+}

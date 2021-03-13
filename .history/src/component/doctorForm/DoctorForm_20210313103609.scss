@@ -1,0 +1,23 @@
+.doctorForm{
+    &__container{
+        margin: 0;
+        background-color: #cfd4fe;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__main{
+        background-color: white;
+        width: 90%;
+        height: 90%;
+        border-radius: 1rem;
+        align-items: center;
+        overflow: hidden;
+        box-shadow: 0 5rem 8rem rgba(black, 0.2);
+    }
+   &__heading{
+       font-size: 2rem;
+       padding: 4rem 0rem 2rem 4rem;
+   }
+}

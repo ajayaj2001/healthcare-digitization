@@ -1,0 +1,28 @@
+.doctorRegister{
+    &__container{
+        margin: 0;
+        background-color: #cfd4fe;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__main{
+        background-color: white;
+        width: 90%;
+        height: 90%;
+        border-radius: 1rem;
+        align-items: center;
+        overflow: hidden;
+        box-shadow: 0 5rem 8rem rgba(black, 0.2);
+    }
+   &__heading{
+       font-size: 2.5rem;
+       margin: 2rem 0rem 0rem 4rem;
+       padding-left: 1rem;
+       line-height: 6rem;
+       border-bottom: .2rem solid black;
+       width: 25rem;
+       border-radius: 2rem;
+   }
+}

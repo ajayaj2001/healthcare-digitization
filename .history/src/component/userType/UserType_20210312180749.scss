@@ -1,0 +1,70 @@
+.userType {
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #2783ad, rgba(23, 91, 122, 0.774)), url(../../img/img-1.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.btn {
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+        padding: 1.5rem 3rem;
+        text-transform: uppercase;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all 0.2s;
+        position: relative;
+        font-size: 1.6rem;
+
+        //for button element
+
+        border: none;
+        cursor: pointer;
+    }
+    &:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+        &::after {
+            transform: scalex(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-0.1rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+    &--white {
+        background-color: #fff;
+        color: grey;
+        &::after {
+            background-color: #fff;
+        }
+    }
+    &--green {
+        background-color: rgba(40, 180, 131, 0.8);
+        color: white;
+        &::after {
+            background-color: rgba(40, 180, 131, 0.8);
+        }
+    }
+    &::after {
+        content: "";
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all 0.4s;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    &--animation {
+        animation: moveInBottom 0.5s ease-out 0.75 backwards;
+    }
+}
