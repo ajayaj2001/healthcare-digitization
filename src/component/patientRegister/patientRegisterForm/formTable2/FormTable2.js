@@ -38,24 +38,115 @@ const FormTable2 = () => {
         <Table.Cell># of meals you eat in an average day?</Table.Cell>
       </Table.Row>
       <Table.Row >
-        <Table.Cell>
-        Rank salt intake <Form.Field label='   Rank salt intake' control='input' type='checkbox' />  
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Rank salt intake<Form.Field label=' Hi' control='input' type='checkbox' style={{marginLeft:'2rem'}}/> 
+        <Form.Field label=' Med' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/>  
+        <Form.Field label=' Low' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/> 
+
             </Table.Cell>
       </Table.Row>
       <Table.Row >
-        <Table.Cell>Rank salt intake</Table.Cell>
+      <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Rank fat  intake<Form.Field label=' Hi' control='input' type='checkbox' style={{marginLeft:'2rem'}}/> 
+        <Form.Field label=' Med' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/>  
+        <Form.Field label=' Low' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/> 
+
+            </Table.Cell>
       </Table.Row>
       <Table.Row >
-        <Table.Cell>Jill</Table.Cell>
-        <Table.Cell>Unknown</Table.Cell>
+        <Table.Cell rowSpan='2'>Caffeine</Table.Cell>
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+       <Form.Field label=' None' control='input' type='checkbox' style={{marginLeft:'2rem'}}/> 
+        <Form.Field label='Coffee' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/>  
+        <Form.Field label=' Tea' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/> 
+        <Form.Field label=' Cola' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/> 
+
+            </Table.Cell>
       </Table.Row>
       <Table.Row >
-        <Table.Cell>Jill</Table.Cell>
-        <Table.Cell>Unknown</Table.Cell>
+      <Table.Cell >
+      # of cups/cans per day?
+            </Table.Cell>
+      </Table.Row>
+
+
+      <Table.Row >
+        <Table.Cell rowSpan='8'>Alcohol</Table.Cell>
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Do you drink alcohol? <RadioButton/>
+            </Table.Cell>
       </Table.Row>
       <Table.Row >
-        <Table.Cell>Jill</Table.Cell>
-        <Table.Cell>Unknown</Table.Cell>
+        <Table.Cell>
+        If yes, what kind? 
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell>
+        How many drinks per week? 
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell>
+        Are you concerned about the amount you drink? 
+            </Table.Cell>
+      </Table.Row>
+
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Have you considered stopping? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Have you ever experienced blackouts?<RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Are you prone to “binge” drinking? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Do you drive after drinking? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+
+      <Table.Row >
+        <Table.Cell rowSpan='3'>Tobacco</Table.Cell>
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Do you use tobacco? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+      <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+       <Form.Field label='Cigarettes – pks./day' control='input' type='checkbox' style={{marginLeft:'2rem'}}/> 
+        <Form.Field label='Chew - #/day' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/>  
+        <Form.Field label=' Pipe - #/day' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/> 
+        <Form.Field label=' Cigars - #/day' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/> 
+
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+      <Table.Cell >
+      <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+       <Form.Field label='# of years' control='input' type='checkbox' style={{marginLeft:'2rem'}}/> 
+        <Form.Field label='Or year quit' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/>  
+            </Table.Cell>
+            </Table.Cell>
+      </Table.Row>
+
+      <Table.Row >
+        <Table.Cell rowSpan='2'>Drugs</Table.Cell>
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Do you currently use recreational or street drugs?<RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+      <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+      Have you ever given yourself street drugs with a needle?<RadioButton/>
+            </Table.Cell>
       </Table.Row>
 
 
