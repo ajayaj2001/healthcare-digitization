@@ -9,37 +9,37 @@ const Page4 = () => {
 <Table celled>
 <Table.Body>
 <Table.Row  >
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Do you usually get up to urinate during the night?<RadioButton />
 </Table.Cell>
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 If yes, # of times _____<RadioButton />
 </Table.Cell>
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Do you feel pain or burning with urination?<RadioButton />
 </Table.Cell>
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Any blood in your urine?<RadioButton />
 </Table.Cell>
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Do you feel burning discharge from penis?<RadioButton />
 </Table.Cell>
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Has the force of your urination decreased?<RadioButton />
 </Table.Cell>
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Have you had any kidney, bladder, or prostate infections within the last 12 months?<RadioButton />
 </Table.Cell>
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Do you have any problems emptying your bladder completely?<RadioButton />
 </Table.Cell>
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Any difficulty with erection or ejaculation?<RadioButton />
 </Table.Cell>
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Any testicle pain or swelling?<RadioButton />
 </Table.Cell>
-<Table.Cell style={{display:'flex',flexDirection:'row'}}>
+<Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Date of last prostate and rectal exam?<RadioButton />
 </Table.Cell>
 </Table.Row>

@@ -17,9 +17,7 @@ const Page1 = () => {
       const handleChangeOption = (e) => {
         setradioOption(e.target.outerText);
       }
-      const generateOtp=()=>{
-        document.getElementById('doctorRegisterForm__otpBox').style.display="block";
-    }
+   
     return (
         <div>
             <Form.Group widths='equal'>
@@ -124,8 +122,8 @@ fluid label='Previous or referring doctor:'
 <Table.Body>
 <Table.Row >
 <Table.Cell rowSpan='3'>Immunizations and dates:</Table.Cell>
-  <Table.Cell> <Form.Field label='Tetanus' control='input' type='checkbox' /></Table.Cell>
-  <Table.Cell><Form.Field label='Pneumonia' control='input' type='checkbox' /></Table.Cell>
+  <Table.Cell colSpan='2'> <Form.Field label='Tetanus' control='input' type='checkbox' /></Table.Cell>
+  <Table.Cell ><Form.Field label='Pneumonia' control='input' type='checkbox' /></Table.Cell>
 </Table.Row>
 <Table.Row>
   <Table.Cell ></Table.Cell>

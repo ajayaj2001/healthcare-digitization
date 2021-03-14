@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-import {Form,Button,Radio, Message,Table,Menu,Icon,Label,TextArea} from 'semantic-ui-react'
+import React from 'react'
+import {Form,Button} from 'semantic-ui-react'
 import Page1 from './page1/Page1'
 import Page2 from './page2/Page2'
 import Page3 from './page3/Page3'
@@ -9,7 +9,9 @@ import './PatientRegisterForm.scss'
 
 
 const PatientRegisterForm = () => {
-  
+    const generateOtp=()=>{
+        document.getElementById('doctorRegisterForm__otpBox').style.display="block";
+    }
 
 
     return (
@@ -31,14 +33,14 @@ const PatientRegisterForm = () => {
 
 
 
-    {/* <Form.Group>
+    <Form.Group>
     <Button positive onClick={event=>generateOtp(event)} className="patientRegisterForm__button" inverted color="purple">Generate OTP</Button>
     <Form.Input placeholder='Enter the otp ' id="doctorRegisterForm__otpBox"  />
     </Form.Group>
     <Form.Group className="patientRegisterForm__buttonPosition">
     <Button positive style={{marginRight:'4rem'}} inverted color="blue">Submit</Button>
     <Button type="submit" inverted color="red">Cancel</Button>
-    </Form.Group> */}
+    </Form.Group>
   </Form>
         </div>
     )

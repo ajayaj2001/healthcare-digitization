@@ -125,15 +125,12 @@ const FormTable2 = () => {
         <Form.Field label='Chew - #/day' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/>  
         <Form.Field label=' Pipe - #/day' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/> 
         <Form.Field label=' Cigars - #/day' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/> 
-
             </Table.Cell>
       </Table.Row>
       <Table.Row >
-      <Table.Cell >
       <Table.Cell style={{display:'flex',flexDirection:'row'}}>
        <Form.Field label='# of years' control='input' type='checkbox' style={{marginLeft:'2rem'}}/> 
         <Form.Field label='Or year quit' control='input' type='checkbox'  style={{marginLeft:'.5rem'}}/>  
-            </Table.Cell>
             </Table.Cell>
       </Table.Row>
 
