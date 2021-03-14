@@ -13,7 +13,7 @@ const Page4 = () => {
 Do you usually get up to urinate during the night?<RadioButton />
 </Table.Cell>
 <Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
-If yes, # of times _____<RadioButton />
+If yes, # of times  <Form.Input style={{marginLeft:'1rem'}}/>
 </Table.Cell>
 <Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Do you feel pain or burning with urination?<RadioButton />

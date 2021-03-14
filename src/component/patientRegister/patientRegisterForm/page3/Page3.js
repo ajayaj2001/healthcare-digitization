@@ -1,5 +1,5 @@
 import React from 'react'
-import {Table,Message} from 'semantic-ui-react'
+import {Table,Message,Form} from 'semantic-ui-react'
 import RadioButton from '../radiobutton/RadioButton'
 const Page3 = () => {
     return (
@@ -46,19 +46,19 @@ const Page3 = () => {
 <Table.Body>
 <Table.Row  >
 <Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
-Age at onset of menstruation:<RadioButton />
+Age at onset of menstruation:<Form.Input style={{marginLeft:'1rem'}}/>
 </Table.Cell>
 <Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
-Date of last menstruation:<RadioButton />
+Date of last menstruation:<Form.Input style={{marginLeft:'1rem'}}/>
 </Table.Cell>
 <Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
-Period every _____ days<RadioButton />
+Period every<Form.Input style={{marginLeft:'1rem',paddingRight:'1rem'}}/>  days
 </Table.Cell>
 <Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Heavy periods, irregularity, spotting, pain, or discharge?<RadioButton />
 </Table.Cell>
 <Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
-Number of pregnancies _____  Number of live births _____<RadioButton />
+Number of pregnancies <Form.Input style={{marginLeft:'1rem',paddingRight:'1rem'}}/> Number of live births <Form.Input style={{marginLeft:'1rem',paddingRight:'1rem'}}/>
 </Table.Cell>
 <Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
 Are you pregnant or breastfeeding?<RadioButton />
@@ -82,7 +82,7 @@ Do you have menstrual tension, pain, bloating, irritability, or other symptoms a
 Experienced any recent breast tenderness, lumps, or nipple discharge?<RadioButton />
 </Table.Cell>
 <Table.Cell style={{display:'flex',flexDirection:'row',borderBottom:'0.01rem rgba(34,36,38,0.1) solid'}}>
-Date of last pap and rectal exam?<RadioButton />
+Date of last pap and rectal exam?<Form.Input style={{marginLeft:'1rem'}}/>
 </Table.Cell>
 </Table.Row>
 </Table.Body>
