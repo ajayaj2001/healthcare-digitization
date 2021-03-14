@@ -35,7 +35,7 @@ const FormTable2 = () => {
         <Table.Cell> <RadioButton lable='If yes, are you on a physician prescribed medical diet?'/> </Table.Cell>
       </Table.Row>
       <Table.Row >
-        <Table.Cell># of meals you eat in an average day?</Table.Cell>
+        <Table.Cell  style={{display:'flex',flexDirection:'row'}}># of meals you eat in an average day? <Form.Input style={{marginLeft:'1rem'}}/></Table.Cell>
       </Table.Row>
       <Table.Row >
         <Table.Cell style={{display:'flex',flexDirection:'row'}}>
@@ -64,9 +64,7 @@ const FormTable2 = () => {
             </Table.Cell>
       </Table.Row>
       <Table.Row >
-      <Table.Cell >
-      # of cups/cans per day?
-            </Table.Cell>
+      <Table.Cell  style={{display:'flex',flexDirection:'row'}}> How many drinks per week? <Form.Input style={{marginLeft:'1rem'}}/></Table.Cell>
       </Table.Row>
 
 
@@ -77,19 +75,13 @@ const FormTable2 = () => {
             </Table.Cell>
       </Table.Row>
       <Table.Row >
-        <Table.Cell>
-        If yes, what kind? 
-            </Table.Cell>
+        <Table.Cell  style={{display:'flex',flexDirection:'row'}}> If yes, what kind?  <Form.Input style={{marginLeft:'1rem'}}/></Table.Cell>
       </Table.Row>
       <Table.Row >
-        <Table.Cell>
-        How many drinks per week? 
-            </Table.Cell>
+        <Table.Cell  style={{display:'flex',flexDirection:'row'}}># of meals you eat in an average day? <Form.Input style={{marginLeft:'1rem'}}/></Table.Cell>
       </Table.Row>
       <Table.Row >
-        <Table.Cell>
-        Are you concerned about the amount you drink? 
-            </Table.Cell>
+        <Table.Cell  style={{display:'flex',flexDirection:'row'}}>     Are you concerned about the amount you drink?  <Form.Input style={{marginLeft:'1rem'}}/></Table.Cell> 
       </Table.Row>
 
       <Table.Row >
@@ -160,8 +152,7 @@ const FormTable2 = () => {
       </Table.Row>
       <Table.Row >
         <Table.Cell style={{display:'flex',flexDirection:'row'}}>
-        If yes, are you trying for a pregnancy?
-            </Table.Cell>
+ If not trying for a pregnancy list contraceptive or barrier method used: <Form.Input style={{marginLeft:'1rem'}}/></Table.Cell>
       </Table.Row>
       <Table.Row >
         <Table.Cell style={{display:'flex',flexDirection:'row'}}>
