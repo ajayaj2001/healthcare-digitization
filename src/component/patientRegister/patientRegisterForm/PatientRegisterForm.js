@@ -1,8 +1,9 @@
 import React,{useState} from 'react'
 import {Form,Button,Radio, Message,Table,Menu,Icon,Label,TextArea} from 'semantic-ui-react'
-import FormTable from './formTable/FormTable'
 import Page1 from './page1/Page1'
 import Page2 from './page2/Page2'
+import Page3 from './page3/Page3'
+import Page4 from './page4/Page4'
 import './PatientRegisterForm.scss'
 
 
@@ -18,6 +19,12 @@ const PatientRegisterForm = () => {
   <br/>
   <br/>
 <Page2/>
+<br/>
+<br/>
+<Page3/>
+<br/>
+<br/>
+<Page4/>
 
 
 

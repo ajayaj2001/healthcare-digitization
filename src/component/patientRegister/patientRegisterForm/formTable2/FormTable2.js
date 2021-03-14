@@ -149,6 +149,76 @@ const FormTable2 = () => {
             </Table.Cell>
       </Table.Row>
 
+      <Table.Row >
+        <Table.Cell rowSpan='5'>Sex</Table.Cell>
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Are you sexually active? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        If yes, are you trying for a pregnancy? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        If yes, are you trying for a pregnancy?
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Any discomfort with intercourse? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Illness related to the Human Immunodeficiency Virus (HIV), 
+        such as AIDS, has become a major public health problem. Risk 
+        factors for this illness include intravenous drug use and
+         unprotected sexual intercourse. Would you like to speak with 
+         your provider about your risk of this illness? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+
+
+      <Table.Row >
+        <Table.Cell rowSpan='6'>Personal Safety</Table.Cell>
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Do you live alone? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Do you have frequent falls?<RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Do you have vision or hearing loss?<RadioButton/>
+            </Table.Cell >
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Do you have an Advance Directive or Living Will? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Would you like information on the preparation of these? <RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+      <Table.Row >
+        <Table.Cell style={{display:'flex',flexDirection:'row'}}>
+        Physical and/or mental abuse have also become major public health issues 
+        in this country. This often takes the form of verbally threatening behavior 
+        or actual physical or sexual abuse. Would you like to discuss this issue with your provider?
+        				<RadioButton/>
+            </Table.Cell>
+      </Table.Row>
+
+
 
     </Table.Body>
   </Table>
