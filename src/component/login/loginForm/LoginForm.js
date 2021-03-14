@@ -17,8 +17,9 @@ const LoginForm = () => {
 
     const formSubmit = (event) => {
         event.preventDefault();
-        if (userName && password) {        //userName or userName
+        if (userName && password) {       
             setLoading(true);
+
             // firebase
             //     .auth()
             //     .signInWithEmailAndPassword(userName, password)
